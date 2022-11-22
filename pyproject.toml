@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "text-search"
+version = "0.1.0"
+description = ""
+authors = ["mihey <daniil53891@yandex.com>"]
+readme = "README.md"
+packages = [{include = "text_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyqt5 = "^5.15.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
